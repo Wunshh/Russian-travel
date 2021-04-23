@@ -1,37 +1,54 @@
 @import url(./vendor/normalize.css);
+@import url(./blocks/root/root.css);
 
-* {
-    border: 1px solid red;
-}
+/* { 
+border: 1px solid red;
+}*/
 
 .page {position: relative;
 margin: 0;
-min-height: 100%;
+min-width: 100%;
 background-color: #2A2C2F;
+
 }
 
 .header {
-    width: 100%;
+    width: calc(100% - 48*2);
     min-height: 80px;
     padding: 0 48px;
     display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .header__logo {
-    background-image: url('./images/header__logo.png');
+    background-image: url('./images/__logo.svg');
     width: 176px;
     height: 52px;
-    align-self: flex-end;
-    z-index: 1;
+}
+
+.header__lang-links {
+    display: flex;
+    list-style: none;
+    margin: 0;  
+    padding: 0;
 }
 
 .header__lang-link {
-    align-self: flex-end;
-    float: right;
-    font-family: Inter;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header__lang-link_active {
+    text-decoration: underline;
+    margin-right: 18px;
+}
+
+.header__lang-link::after {
+  text-decoration: underline;
 }
