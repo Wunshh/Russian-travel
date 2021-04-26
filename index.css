@@ -1,54 +1,47 @@
 @import url(./vendor/normalize.css);
+
+@import url(./vendor/Fonts/fonts.css);
+
 @import url(./blocks/root/root.css);
 
-/* { 
-border: 1px solid red;
-}*/
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/__lang-links/header__lang-links.css);
+@import url(./blocks/header/__lang-link/header__lang-link.css);
+@import url(./blocks/header/__lang-link/_active/header__lang-link_active.css);
 
-.page {position: relative;
-margin: 0;
-min-width: 100%;
-background-color: #2A2C2F;
+@import url(./blocks/main/main.css);
 
-}
+@import url(./blocks/lead/lead.css);
+@import url(./blocks/lead/__title/lead__title.css);
+@import url(./blocks/lead/__subtitle/lead__subtitle.css);
+@import url(./blocks/lead/__image/lead__image.css);
+@import url(./blocks/lead/__caption/lead__caption.css);
 
-.header {
-    width: calc(100% - 48*2);
-    min-height: 80px;
-    padding: 0 48px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
+@import url(./blocks/intro/intro.css);
+@import url(./blocks/intro/__title/intro__title.css);
+@import url(./blocks/intro/__text/intro__text.css);
+@import url(./blocks/intro/__lists/intro__lists.css);
 
-.header__logo {
-    background-image: url('./images/__logo.svg');
-    width: 176px;
-    height: 52px;
-}
+@import url(./blocks/photo-grid/photo-grid.css);
+@import url(./blocks/photo-grid/__item/photo-grid__item.css);
 
-.header__lang-links {
-    display: flex;
-    list-style: none;
-    margin: 0;  
-    padding: 0;
-}
+@import url(./blocks/places/places.css);
+@import url(./blocks/places/__card/places__card.css);
+@import url(./blocks/places/__title/places__title.css);
+@import url(./blocks/places/__website/places__website.css);
+@import url(./blocks/places/__url-heading/places__url-heading.css);
+@import url(./blocks/places/__link/places__link.css);
+@import url(./blocks/places/__images/places__images.css);
+@import url(./blocks/places/__paragraph/_position/_first/places__paragraph_position_first.css);
+@import url(./blocks/places/__paragraph/_position/_second/places__paragraph_position_second.css);
 
-.header__lang-link {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    color: #FFFFFF;
-    text-decoration: none;
-}
+@import url(./blocks/cover/cover.css);
+@import url(./blocks/cover/__background/cover__background.css);
+@import url(./blocks/cover/__title/cover__title.css);
+@import url(./blocks/cover/__subtitle/cover__subtitle.css);
 
-.header__lang-link_active {
-    text-decoration: underline;
-    margin-right: 18px;
-}
-
-.header__lang-link::after {
-  text-decoration: underline;
-}
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__links/footer__links.css);
+@import url(./blocks/footer/__link/footer__link.css);
+@import url(./blocks/footer/__copyright/footer__copyright.css);

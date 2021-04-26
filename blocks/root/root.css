@@ -1,1 +1,10 @@
-@import url(../../Inter-3.18/Inter_Web/inter.css);
+.page {
+    margin: auto;
+    background-color: #2A2C2F;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
