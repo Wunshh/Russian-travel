@@ -7,3 +7,24 @@
     box-sizing: border-box;
     padding: 28px 0 56px;
 }
+
+@media screen and (max-width: 1279px) {
+    .header {
+        max-width: 928px;
+        padding: 28px 0 48px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header {
+        max-width: 720px;
+        padding: 28px 0 48px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        max-width: 288px;
+        padding: 16px 0 48px;
+    }
+}

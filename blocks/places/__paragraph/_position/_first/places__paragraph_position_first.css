@@ -8,3 +8,11 @@
     color: #FFFFFF;
     margin-bottom: 26px;
  }
+
+ @media screen and (max-width: 1023px) {
+     .places__paragraph_position_first {
+         margin-bottom: 25px;
+         font-size: 16px;
+         line-height: 26px;
+     }
+ }
