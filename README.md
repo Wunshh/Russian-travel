@@ -15,7 +15,7 @@
 2. Файловая структура проекта Nested.
 3. Проект адаптирован под экраны 320px, 768px, 1024px, 1280px и более. 
 
-*Сcылка на проект:* 
+*Сcылка на проект:* https://wunshh.github.io/Russian-travel/
 
 **Figma**
 * [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
