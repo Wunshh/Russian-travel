@@ -1,16 +1,31 @@
 .footer__link {
-    font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
     color: #FFFFFF;
     text-decoration: none;
+    margin-right: 18px;
+    transform: 2s easy-in;
   }
 
+.footer__link:nth-of-type(5n) {
+    margin-right: 0;
+  }
+
+.footer__link:hover {
+    opacity: 0.8;
+  }
+  
 @media screen and (max-width: 767px) {
   .footer__link {
     font-size: 24px;
     line-height: 24px;
+    margin: 0 0 32px;
   }
-}  
+
+  .footer__link:nth-of-type(5n) {
+    margin-bottom: 0;
+}
+} 
